@@ -2,6 +2,7 @@
 #import <Metal/Metal.h>
 #import <MetalKit/MetalKit.h>
 #import <Foundation/Foundation.h>
+#import <Frocity/devhip.h>
 #import "Esp/CaptainHook.h"
 #import "Esp/ImGuiDrawView.h"
 #import "IMGUI/imgui.h"
@@ -22,7 +23,7 @@
 @end
 
 @implementation ImGuiDrawView
-#include "1110/hook.h"
+#include "1110/hook.h" 
 
 
 static bool show_s0 = false;
